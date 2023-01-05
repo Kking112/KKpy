@@ -6,11 +6,6 @@ class Common_Functions:
     def __init__(self) -> None:
         pass
 
-    
-    def remove_first_end_spaces(self,string):
-        """ Removes whitespace from beginning and end of str"""
-        return "".join(string.rstrip().lstrip())
-
     def reduce_mem_usage(df):
         """ iterate through all the columns of a dataframe and modify the data type
             to reduce memory usage.        
